@@ -15,7 +15,7 @@
             <property name="jakarta.persistence.jdbc.password" value="rental" />
 
             <property name="hibernate.show_sql" value="true" />
-            <property name="hibernate.hbm2ddl.auto" value="none" />
+            <property name="hibernate.hbm2ddl.auto" value="create" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.OracleDialect"/>
             <property name="hibernate.hql.bulk_id_strategy.global_temporary.create_tables" value="false"/>
         </properties>
